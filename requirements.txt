@@ -1,0 +1,8 @@
+apiflask
+flask
+flask-migrate
+flask-sqlalchemy
+python-decouple
+SQLAlchemy-serializer
+pymysql
+markupsafe==2.0.1
