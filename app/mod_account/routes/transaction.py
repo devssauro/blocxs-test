@@ -63,7 +63,7 @@ def post_deposit_transaction(data):
     }, 201
 
 
-@bp.post('/<int:account_id>/withdraw')
+@bp.post('/withdraw')
 @app.input(TrasactionOperationInSchema)
 def post_withdraw_transaction(data):
     account = Account.query.get(data['account_id'])
