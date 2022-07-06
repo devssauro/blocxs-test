@@ -1,5 +1,0 @@
-Olá {{user.extra['name']}}
-
-Copie o link abaixo e cole em seu navegador para ativar sua conta.
-
-{{confirmation_link}}
